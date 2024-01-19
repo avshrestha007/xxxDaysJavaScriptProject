@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+        .project{
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        ul li{
+            list-style: none;
+        }
+        ul li a#todo-app,#weather-app{
+            color: black;
+        }
+        
+    </style>
 </head>
 <body>
-    <a href="01_Day Weather App/weatherApp.html">Weather App</a>
-    <a href="02_To Do Task App/todoApp.html"></a>
+    <div class="project">
+        <ul>
+            <li><a href="01_Day Weather App/weatherApp.html" id="weather-app">Weather App</a></li><br>
+            <li><a href="02_To Do Task App/todoApp.html" id="todo-app">To Do List App</a></li>
+        </ul>
+    </div>
 </body>
 </html>
