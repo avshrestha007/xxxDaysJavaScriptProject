@@ -1,3 +1,29 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins','sans-serif';
+}
+h1{
+    text-align: center;
+}
+div{
+    margin-top: 50px;
+    display: inline-block;
+}
+div h2{
+    text-align: center;
+}
+
+img{
+    width: 350px;
+    height: 200px;
+    margin: 20px 20px 0 20px;
+    border-radius: 4px;
+
+}
+#weather-app{
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
